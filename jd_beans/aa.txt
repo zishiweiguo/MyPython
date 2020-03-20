@@ -1,0 +1,975 @@
+<html class="root61 jd_mac jd_retina"><head><script async="" src="https://d.jd.com/lab/get?callback=lab"></script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>我的京豆-我的京东</title>
+<link type="text/css" rel="stylesheet" href="//misc.360buyimg.com/??jdf/1.0.0/unit/ui-base/5.0.0/ui-base.css,jdf/1.0.0/unit/shortcut/5.0.0/shortcut.css,jdf/1.0.0/unit/global-header/1.0.0/global-header.css,jdf/1.0.0/unit/myjd/5.0.0/myjd.css,jdf/1.0.0/unit/nav/2.0.0/nav.css,jdf/1.0.0/unit/shoppingcart/2.0.0/shoppingcart.css,jdf/1.0.0/unit/global-footer/5.0.0/global-footer.css,jdf/1.0.0/unit/service/5.0.0/service.css,user/myjd/lib/1.0.0/widget/global/global.css">
+<link rel="icon" href="//www.jd.com/favicon.ico" mce_href="//www.jd.com/favicon.ico" type="image/x-icon">
+<script type="text/javascript" async="" src="https://wlssl.jd.com/wl.js"></script><script type="text/javascript">window.pageConfig={jdfVersion:'2.0.0',compatible:true};</script>
+<script type="text/javascript" src="//misc.360buyimg.com/jdf/1.0.0/unit/??base/5.0.0/base.js"></script>
+<!-- /js 位置 -->
+<script type="text/javascript" src="//misc.360buyimg.com/jdf/??lib/jquery-1.6.4.js"></script>
+<script type="text/javascript" src="../assets/js/mybeanlist.js?da=1dsa"></script>
+<link source="widget" type="text/css" rel="stylesheet" href="//misc.360buyimg.com/user/myjd/jdbean/0.0.1/widget/??/common/common.css,/pg-mybean/pg-mybean.css,/page/page.css,/m-bean-exchange/m-bean-exchange.css">
+<script type="text/javascript" async="" src="//nfa.jd.com/loadFa.js?aid=2_959_6296-2_959_6297"></script></head>
+<body>
+	<!--shortcut start-->
+<div id="shortcut-2014">
+	<div class="w">
+    	<ul class="fl">
+    		<li id="ttbar-home"><i class="iconfont"></i><a href="//www.jd.com/" target="_blank">京东首页</a></li>
+    		<li class="dorpdown" id="ttbar-mycity">			<div class="dt cw-icon ui-areamini-text-wrap" style="">				<i class="iconfont"></i>				<span class="ui-areamini-text" data-id="21" title="江西">江西</span> 			</div>			<div class="dd dorpdown-layer">				<div class="dd-spacer"></div>				<div class="ui-areamini-content-wrap"> 					<div class="ui-areamini-content"><div class="ui-areamini-content-list clearfix"><div class="item"><a data-id="1" href="javascript:void(0)">北京</a></div><div class="item"><a data-id="2" href="javascript:void(0)">上海</a></div><div class="item"><a data-id="3" href="javascript:void(0)">天津</a></div><div class="item"><a data-id="4" href="javascript:void(0)">重庆</a></div><div class="item"><a data-id="5" href="javascript:void(0)">河北</a></div><div class="item"><a data-id="6" href="javascript:void(0)">山西</a></div><div class="item"><a data-id="7" href="javascript:void(0)">河南</a></div><div class="item"><a data-id="8" href="javascript:void(0)">辽宁</a></div><div class="item"><a data-id="9" href="javascript:void(0)">吉林</a></div><div class="item"><a data-id="10" href="javascript:void(0)">黑龙江</a></div><div class="item"><a data-id="11" href="javascript:void(0)">内蒙古</a></div><div class="item"><a data-id="12" href="javascript:void(0)">江苏</a></div><div class="item"><a data-id="13" href="javascript:void(0)">山东</a></div><div class="item"><a data-id="14" href="javascript:void(0)">安徽</a></div><div class="item"><a data-id="15" href="javascript:void(0)">浙江</a></div><div class="item"><a data-id="16" href="javascript:void(0)">福建</a></div><div class="item"><a data-id="17" href="javascript:void(0)">湖北</a></div><div class="item"><a data-id="18" href="javascript:void(0)">湖南</a></div><div class="item"><a data-id="19" href="javascript:void(0)">广东</a></div><div class="item"><a data-id="20" href="javascript:void(0)">广西</a></div><div class="item"><a data-id="21" href="javascript:void(0)" class="selected">江西</a></div><div class="item"><a data-id="22" href="javascript:void(0)">四川</a></div><div class="item"><a data-id="23" href="javascript:void(0)">海南</a></div><div class="item"><a data-id="24" href="javascript:void(0)">贵州</a></div><div class="item"><a data-id="25" href="javascript:void(0)">云南</a></div><div class="item"><a data-id="26" href="javascript:void(0)">西藏</a></div><div class="item"><a data-id="27" href="javascript:void(0)">陕西</a></div><div class="item"><a data-id="28" href="javascript:void(0)">甘肃</a></div><div class="item"><a data-id="29" href="javascript:void(0)">青海</a></div><div class="item"><a data-id="30" href="javascript:void(0)">宁夏</a></div><div class="item"><a data-id="31" href="javascript:void(0)">新疆</a></div><div class="item"><a data-id="52993" href="javascript:void(0)">港澳</a></div><div class="item"><a data-id="32" href="javascript:void(0)">台湾</a></div><div class="item"><a data-id="84" href="javascript:void(0)">钓鱼岛</a></div><div class="item"><a data-id="53283" href="javascript:void(0)">海外</a></div></div></div> 				</div> 				<div class="areamini_inter"> 				  <div class="areamini_inter_split"></div> 				  <p class="areamini_inter_desc">Available Sites</p> 				  <ul class="areamini_inter_list"> 					<li class="areamini_inter_item"> 					  <a class="areamini_inter_lk" href="//www.joybuy.com/?source=1&amp;visitor_from=2" target="_blank" clstag="h|keycount|head|topbar_0101"> 						<div class="areamini_inter_ico areamini_inter_ico_global"></div> 						<div class="areamini_inter_name">Global Site</div> 					  </a> 					</li> 					<li class="areamini_inter_item"> 					  <a class="areamini_inter_lk" href="//www.jd.ru/?source=1&amp;visitor_from=2" target="_blank" clstag="h|keycount|head|topbar_0102"> 						<div class="areamini_inter_ico areamini_inter_ico_russia"></div> 						<div class="areamini_inter_name">Сайт России</div> 					  </a> 					</li> 					<li class="areamini_inter_item"> 					  <a class="areamini_inter_lk" href="//www.jd.id/?source=1&amp;visitor_from=2" target="_blank" clstag="h|keycount|head|topbar_0103"> 						<div class="areamini_inter_ico areamini_inter_ico_indonesia"></div> 						<div class="areamini_inter_name">Situs Indonesia</div> 					  </a> 					</li> 					<li class="areamini_inter_item"> 					  <a class="areamini_inter_lk" href="//www.joybuy.es/?source=1&amp;visitor_from=2" target="_blank" clstag="h|keycount|head|topbar_0103"> 						<div class="areamini_inter_ico areamini_inter_ico_spain"></div> 						<div class="areamini_inter_name">Sitio de España</div> 					  </a> 					</li> 					<li class="areamini_inter_item"> 						<a class="areamini_inter_lk" href="//www.jd.co.th/?source=1&amp;visitor_from=2" target="_blank" clstag="h|keycount|head|topbar_0105"> 						  <div class="areamini_inter_ico areamini_inter_ico_thailand"></div> 						  <div class="areamini_inter_name">เว็บไซต์ประเทศไทย</div> 						</a> 					</li> 				  </ul> 				</div> 			</div>		</li>
+    	</ul>
+    	<ul class="fr">
+			<li class="fore1 dorpdown" id="ttbar-login"><div class="dt cw-icon icon-plus-state3">						<i class="icon-plus-nickname"></i>						<a class="nickname" target="_blank" href="//home.jd.com/">子时未过</a>						<i class="iconfont"></i>					</div>					<div class="dd dorpdown-layer icon-plus-state3">				<div class="dd-spacer"></div>				<div class="userinfo">					<div class="u-pic"><a target="_blank" href="//home.jd.com/"><img src="//storage.360buyimg.com/i.imageUpload/d7d3cab1ceb4b9fd31333739303737333639323436_mid.jpg" width="60" height="60"></a></div><div class="u-plus"><a href="https://passport.jd.com/uc/login?ltype=logout&amp;ReturnUrl=https://bean.jd.com/myJingBean/list" class="link-logout">退出</a><a href="https://plus.jd.com/index" target="_blank" class="icon-plus-dropdown"></a></div>					<div class="u-msg"><a href="//plus.jd.com/index" target="_blank">现在续费PLUS享特惠价&gt;</a></div>				</div>			<div class="badge-list">								<a href="javascript:void(0);" class="badge-list-prev">&lt;</a>								<div class="u-badges" style="position: relative;">									<div class="badge-panel-main" style="width: 592px; left: 0px; position: absolute;"><div class="badge-panel fore1 ui-switchable-panel-selected" style="float: left; display: block;"><a href="https://plus.jd.com/index" target="_blank"><i></i><p class="u-name">PLUS专享</p></a></div><div class="badge-panel" style="float: left; display: block;"><a href="//vip.jd.com/home.html" target="_blank"><i class="has-yfdm"></i><p class="u-name">运费单免</p></a></div><div class="badge-panel" style="float: left; display: block;"><a href="//vip.jd.com/home.html" target="_blank"><i class="has-srtq"></i><p class="u-name">生日特权</p></a></div><div class="badge-panel" style="float: left; display: block;"><a href="//vip.jd.com/home.html" target="_blank"><i class="has-sdtk"></i><p class="u-name">闪电退款</p></a></div><div class="badge-panel" style="float: left; display: block;"><a href="//vip.jd.com/home.html" target="_blank"><i class="has-smhx"></i><p class="u-name">上门换新</p></a></div><div class="badge-panel" style="float: left; display: block;"><a href="//vip.jd.com/home.html" target="_blank"><i class="has-jxzlb"></i><p class="u-name">京享值礼包</p></a></div><div class="badge-panel" style="float: left; display: block;"><a href="//vip.jd.com/home.html" target="_blank"><i class="hasnt-gbzx"></i><p class="u-name">贵宾专线</p></a></div><div class="badge-panel" style="float: left; display: block;"><a href="//vip.jd.com/home.html" target="_blank"><i class="hasnt-yfsm"></i><p class="u-name">运费双免</p></a></div></div>								</div>								<a href="javascript:void(0);" class="badge-list-next">&gt;</a>							</div></div></li>
+			<li class="spacer"></li>
+			<li class="fore2">
+				<div class="dt">
+					<a target="_blank" href="//order.jd.com/center/list.action">我的订单</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore3 dorpdown" id="ttbar-myjd">
+				<div class="dt cw-icon">
+					<!-- <i class="ci-right"><s>◇</s></i> -->
+					<a target="_blank" href="//home.jd.com/">我的京东</a><i class="iconfont"></i>
+				</div>
+				<div class="dd dorpdown-layer"><div class="dd-spacer"></div><div class="dd-inner"><span class="loading"></span></div></div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore4" id="ttbar-member">
+				<div class="dt">
+					<a target="_blank" href="//vip.jd.com/">京东会员</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+						<li class="fore5 dorpdown" id="ttbar-ent">				<div class="dt cw-icon">					<a target="_blank" href="//b.jd.com/">企业采购</a><i class="iconfont"></i>				</div>				<div class="dd dorpdown-layer">					<div class="dd-spacer"></div>					<div class="dd-inner" id="ttbar-ent-main"><div class="dd-spacer"></div><div class="dd-inner"><span class="loading"></span></div>					</div>				</div>			</li>
+			<li class="spacer"></li>
+			<li class="fore6 dorpdown" id="ttbar-serv">
+				<div class="dt cw-icon">
+					<!-- <i class="ci-right"><s>◇</s></i> -->
+					客户服务<i class="iconfont"></i>
+				</div>
+				<div class="dd dorpdown-layer"><div class="dd-spacer"></div><div class="dd-inner"><span class="loading"></span></div></div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore7 dorpdown" id="ttbar-navs">
+				<div class="dt cw-icon">
+					<!-- <i class="ci-right"><s>◇</s></i> -->
+					网站导航<i class="iconfont"></i>
+				</div>
+				<div class="dd dorpdown-layer"><div class="dd-spacer"></div><div class="dd-inner"><span class="loading"></span></div></div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore8 dorpdown" id="ttbar-apps">
+				<div class="dt cw-icon">
+					<!-- <i class="ci-left"></i> -->
+					<!-- <i class="ci-right"><s>◇</s></i> -->
+					<a target="_blank" href="//app.jd.com/">手机京东</a>
+				</div>
+						<div class="dd dorpdown-layer">				<div class="dd-spacer"></div>				<div class="dd-inner" id="ttbar-apps-main"><div class="dd-spacer"></div><div class="dd-inner"><span class="loading"></span></div>				</div>			</div>		</li>
+    	</ul>
+		<span class="clr"></span>
+    </div>
+</div>
+<div id="o-header-2013"><div id="header-2013" style="display:none;"></div></div>
+<!--shortcut end-->
+	<div id="nav">
+	<div class="w">
+		<div class="logo">
+			<a href="//www.jd.com" target="_blank" class="fore1" clstag="homepage|keycount|home2013|Homejdlogo"></a>
+			<a href="//home.jd.com" target="_self" class="fore2" clstag="homepage|keycount|home2013|Homebackm">我的京东</a>
+			<a href="//www.jd.com" target="_blank" class="fore3" clstag="homepage|keycount|home2013|Homebackjd">返回京东首页</a>
+		</div>
+		<div class="navitems">
+			<ul>
+				<li class="fore-1">
+					<a target="_self" href="//home.jd.com" clstag="homepage|keycount|home2013|Homeindex">首页</a>
+				</li>
+				<li class="fore-3">
+					<div class="dl" clstag="click|keycount|myhome|hsz">
+						<div class="dt">
+							<span class="myjd-set">账户设置</span>
+							<b></b>
+						</div>
+						<div class="dd">
+
+							<a tid="_MYJD_info" clstag="Homeyser" href="//i.jd.com/user/info" target="_self"><span>个人信息</span></a>
+
+							<a tid="_MYJD_safe" clstag="Homesafe" href="//aq.jd.com/process/center?s=1" target="_self"><span>账户安全</span></a>
+                                                        <a tid="_MYJD_wdcm" clstag="Homewdcm" href="//helper.jd.com/IDPlus/pchtml/size-center.html" target="_self"><span>我的尺码</span></a>
+							<a tid="_MYJD_accbinde" clstag="Homezhbd" href="//safe.jd.com/union/index.action" target="_self"><span>账号绑定</span></a>
+
+
+
+							<a tid="_MYJD_comments" clstag="homeadd" href="//easybuy.jd.com/address/getEasyBuyList.action" target="_self"><span>收货地址</span></a>
+							<a tid="_MYJD_yyrxx" clstag="homeyyrxx" href="//patient.jd.com/patientInfo" target="_self"><span>健康档案</span></a>
+							<a tid="_MYJD_share" clstag="Homeshare" href="//share.jd.com/share/index.html" target="_self"><span>分享绑定</span></a>
+
+							<a tid="_MYJD_rss" clstag="Homeedm" href="//i-mkt.jd.com/subscribe/settings" target="_self"><span>邮件订阅</span></a>
+
+
+
+							<a tid="_MYJD_app" clstag="Homeedm" href="//open.jd.com/home/home#/authorization" target="_blank"><span>授权管理</span></a>
+
+							<a tid="_MYJD_pay" clstag="Homequick" href="https://authpay.jd.com/card/queryBindCard.action" target="_blank"><span>我的银行卡</span></a>
+
+							<a tid="_MYJD_zpzz" clstag="Homezpzz" href="//invoice.jd.com/user/userinfo/zpzz.html" target="_self"><span>增票资质</span></a>
+<a tid="_MYJD_qyfp" clstag="Homeqyfp" href="//corp.jd.com/invoice/commonlist" target="_self"><span>企业发票</span></a>
+<a tid="_MYJD_cgxqd" clstag="Homecgxqd" href="//kw.jd.com" target="_self"><span>采购需求单</span></a>
+						</div>
+					</div>
+				</li>
+				<li class="fore-4">
+					<div class="dl myjd-info" clstag="click|keycount|myhome|comments">
+						<div class="dt ">
+							<span>评价</span>
+							<b></b>
+						</div>
+						<div class="dd">
+							<a tid="_MYJD_mycomments0" clstag="HomeComments0" href="//club.jd.com/myJdcomments/myJdcomment.action" target="_self"><span>待评价</span></a>
+							<a tid="_MYJD_mycomments4" clstag="HomeComments4" href="//club.jd.com/myJdcomments/myJdcomment.action?sort=4" target="_self"><span>服务评价</span></a>
+							<a tid="_MYJD_mycomments3" clstag="HomeComments3" href="//club.jd.com/myJdcomments/myJdcomment.action?sort=3" target="_self"><span>待追评</span></a>
+							<a tid="_MYJD_mycomments2" clstag="HomeComments2" href="//club.jd.com/myJdcomments/myJdcomment.action?sort=2" target="_self"><span>已评价</span></a>
+						</div>
+					</div>
+				</li>
+				<li class="fore-5">
+					<a tid="_MYJD_joy" href="//joycenter.jd.com" target="_self" clstag="homepage|keycount|home2013|Homemsg">消息<i>278</i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="nav-r">
+			<div id="search-2014">
+					<ul id="shelper" class="hide"></ul>
+					<div class="form">
+						<input type="text" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text">
+						<button onclick="search('key');return false;" class="button cw-icon" type="button"><i></i>搜索</button>
+					</div>
+			    </div>
+			    <div id="settleup-2014" class="dorpdown">
+					<div class="cw-icon">
+						<i class="ci-left"></i>
+						<i class="ci-right">&gt;</i><i class="ci-count" id="shopping-amount">0</i>
+						<a target="_blank" href="//cart.jd.com/cart.action">我的购物车</a>
+					</div>
+					<div class="dorpdown-layer"><div class="spacer"></div><div id="settleup-content"><span class="loading"></span></div></div>
+				</div>
+			    <div id="hotwords-2014"><a href="//pro.jd.com/mall/active/3vhrJRWUDvx84MMSPJ2gnMuggew3/index.html" target="_blank">苹果手机</a><a href="//pro.jd.com/mall/active/46Vsus7SpKRgDbyAUitFHeBJnthu/index.html" target="_blank">每100-50</a><a href="//prodev.jd.com/mall/active/W1GSoAGRWVgp47YvBztcAo1R8AQ/index.html" target="_blank">199减60</a><a href="//pro.jd.com/mall/active/W1UcShWfWYzdTjWrGhdACkswC1L/index.html" target="_blank">纸尿裤</a><a href="//pro.jd.com/mall/active/4W7rJTAFVQVYPeQyRQXSQvZA1xSV/index.html" target="_blank">惠普电脑</a><a href="//prodev.jd.com/mall/active/3GJ7nY3q8avyYCjucUZUxvkLL46T/index.html" target="_blank">学生书包</a><a href="//pro.jd.com/mall/active/3co5h2sqFrtRXq3wsLPeUrZy9rw/index.html" target="_blank">营养防范</a><a href="//pro.jd.com/mall/active/eVm21X1p6S1YK9i9VqQWDFi8wy2/index.html" target="_blank">家装建材</a></div>
+		</div>
+		<div class="clr"></div>
+	</div>
+</div>
+
+<!-- main -->
+<div id="container">
+	<div class="w">
+		<div id="content">
+			<div id="sub">
+				<div id="menu">
+	<dl class="fore1">
+		<dt id="_MYJD_order">订单中心</dt>
+		<dd class="fore1_1" id="_MYJD_ordercenter">
+			<a clstag="homepage|keycount|home2013|Homeoder" href="//order.jd.com/center/list.action" target="_self">我的订单</a>
+		</dd>
+		<dd class="fore1_4" id="_MYJD_yushou">
+			<a clstag="homepage|keycount|home2013|Homeys" href="//yushou.jd.com/member/qualificationList.action" target="_self">我的活动</a>
+		</dd>
+		<dd class="fore1_5" id="_MYJD_comments">
+			<a clstag="homepage|keycount|home2013|Homecomments" href="//club.jd.com/mycomments.aspx" target="_self">评价晒单</a>
+		</dd>
+                <dd class="fore1_7" id="_MYJD_alwaysbuy">
+			<a clstag="homepage|keycount|home2013|Homewdcgqd" href="//changgou.jd.com/buylist-v2/list?jdHead=true&amp;page=1" target="_self">我的常购商品&nbsp;<img width="24" height="11" src="//misc.360buyimg.com/jd2008/skin/df/i/myjd-new-ico.png"></a>
+		</dd>
+		<dd class="fore1_8" id="_MYJD_dxd">
+			<a clstag="homepage|keycount|home2013|Homedxd" href="//skunotify.jd.com/userTouchSub/query.action" target="_self">代下单</a>
+		</dd>
+	</dl>
+	<dl class="fore2">
+		<dt id="_MYJD_gz">关注中心</dt>
+		<dd class="fore2_1" id="_MYJD_product">
+			<a clstag="homepage|keycount|home2013|Homefollow" href="//t.jd.com/home/follow" target="_self">关注的商品</a>
+		</dd>
+		<dd class="fore2_2" id="_MYJD_vender">
+			<a clstag="homepage|keycount|home2013|Homefollowv" href="//t.jd.com/vender/followVenderList.action" target="_self">关注的店铺</a>
+		</dd>
+		<dd class="fore2_3" id="_MYJD_followwhat">
+			<a clstag="homepage|keycount|home2013|Homewhat" href="//what.jd.com/my/follow/index " target="_self">关注的专辑</a>
+		</dd>
+		<dd class="fore2_4" id="JD_FOLLOW_CONTENT">
+			<a clstag="homepage|keycount|home2013|Homettnr" href="//tt.jd.com" target="_self">收藏的内容&nbsp;<img width="24" height="11" src="//misc.360buyimg.com/jd2008/skin/df/i/myjd-new-ico.png"></a>
+		</dd>
+		<dd class="fore2_6" id="_MYJD_activity">
+			<a clstag="homepage|keycount|home2013|Homefollowa" href="//t.jd.com/activity/followActivityList.action" target="_self">关注的活动</a>
+		</dd>
+	</dl>
+	<dl class="fore3">
+		<dt id="_MYJD_zc">资产中心</dt>
+		<dd class="fore3_1" id="_MYJD_cashbox">
+			<a clstag="homepage|keycount|home2013|Homexjk" href="//jinku.jd.com/xjk/income.action" target="_self">小金库</a>
+		</dd>
+		<dd class="fore3_2" id="_MYJD_credit"><a target="_blank" class="" clstag="homepage|keycount|home2013|hbt" tag="213" href="//baitiao.jd.com">京东白条</a></dd>
+		<dd class="fore3_5" id="_MYJD_jdfk">
+			<a clstag="homepage|keycount|home2013|Homejdfk" href="//mygiftcard.jd.com/giftcard/codeIndex.action" target="_self">领货码</a>
+		</dd>
+		<dd class="fore3_6" id="_MYJD_balance">
+			<a clstag="homepage|keycount|home2013|Homemoney" href="//mymoney.jd.com/finance/recently.action" target="_self">余额</a>
+		</dd>
+		<dd class="fore3_12" id="_MYJD_redpackage">
+			<a target="_self" class="" clstag="homepage|keycount|home2013|redpackage" href="//myhongbao.jd.com">红包</a>
+		</dd>
+		<dd class="fore3_13" id="_MYJD_bankcard">
+			<a target="_self" class="" clstag="homepage|keycount|home2013|bankcard" href="//authpay.jd.com/card/queryBindCard.action">银行卡</a>
+		</dd>
+		<dd class="fore3_7" id="_MYJD_ticket">
+			<a clstag="homepage|keycount|home2013|Homequan" href="//quan.jd.com/user_quan.action" target="_self">优惠券</a><b>(7)</b>
+		</dd>
+		<dd class="fore3_8" id="_MYJD_card">
+			<a clstag="homepage|keycount|home2013|Homegift" href="//mygiftcard.jd.com/giftcard/myGiftCardInit.action" target="_self">礼品卡</a>
+		</dd>
+
+		<dd class="fore3_10" id="_MYJD_bean">
+			<a clstag="homepage|keycount|home2013|Homedou" href="//bean.jd.com/myJingBean/list" target="_self">京豆</a>
+		</dd>
+		<dd class="fore3_11" id="_MYJD_coin">
+			<a clstag="homepage|keycount|home2013|Homehgb2" href="//coin.jd.com/asset/sc/myassets.html" target="_self">京东钢镚&nbsp;<img width="24" height="11" src="//misc.360buyimg.com/jd2008/skin/df/i/myjd-new-ico.png"></a>
+		</dd>
+	</dl>
+	<dl class="fore4">
+		<dt id="_MYJD_ts">特色业务</dt>
+		<dd class="fore4_1" id="_MYJD_tc">
+			<a clstag="homepage|keycount|home2013|Homemyyyt" href="//le.jd.com/myBusinessHall" target="_self">我的营业厅</a>
+		</dd>
+		<dd class="fore4_2" id="_MYJD_tx">
+			<a clstag="homepage|keycount|home2013|Homemobile" href="//mobile.jd.com/yyswt/myjd.do" target="_self">京东通信</a>
+		</dd>
+		<dd class="fore4_3" id="_MYJD_ding">
+			<a clstag="homepage|keycount|home2013|Homeding" href="//ding.jd.com/plan/showPlans.action" target="_self">定期购</a>
+		</dd>
+
+		<dd class="fore4_5" id="_MYJD_hsd">
+			<a clstag="homepage|keycount|home2013|Homewhsd" href="//huanwo.jd.com/main/Main_listRecovery.action" target="_self">我的回收单</a>
+		</dd>
+		<dd class="fore4_6" id="_MYJD_jnbt">
+			<a clstag="homepage|keycount|home2013|Homejnbt" href="//ptrade.jd.com/getNomalToJnActionList.html" target="_self">节能补贴</a>
+		</dd>
+		<dd class="fore4_7" id="_MYJD_yyfw">
+			<a clstag="homepage|keycount|home2013|Homeyyfw" href="//yiyaorx.jd.com/process_list.action" target="_self">医药服务</a>
+		</dd>
+		<dd class="fore4_8" id="_MYJD_lljyz">
+			<a clstag="homepage|keycount|home2013|Homelljyz" href="//datawallet.jd.com/profile.html" target="_self">流量加油站</a>
+		</dd>
+                <dd class="fore4_10" id="_MYJD_istudy">
+			<a clstag="homepage|keycount|home2013|Homeistudy" href="//istudy.jd.com/" target="_self">我的课程</a>
+		</dd>
+                <dd class="fore4_11" id="_MYJD_hwfc">
+			<a clstag="homepage|keycount|home2013|Homehwfcyy" href="//abdestate.jd.com/myjd" target="_self">海外房产预约</a>
+		</dd>
+               <dd class="fore4_12" id="_MYJD_homewdqqg">
+			<a clstag="homepage|keycount|home2013|homewdqqg" href="https://home.jd.hk" target="_self">我的京东国际</a>
+		</dd>
+               <dd class="fore4_13" id="_MYJD_stagepaymd">
+			<a clstag="homepage|keycount|home2013|homezxfw" href="//md-helper.jd.com/stagepay/index" target="_self">装修服务</a>
+		</dd>
+                <dd class="fore4_14" id="_MYJD_paimai">
+			<a clstag="pageclick|keycount|home_201804231|1" href="//ipaimai.jd.com/home/" target="_self">我的拍卖</a>
+		</dd>
+                <dd class="fore4_15" id="_MYJD_crt">
+			<a clstag="pageclick|keycount|home_201804231|2" href="//ctr.jd.com/order-list.html" target="_blank">我的集运</a>
+		</dd>
+                <dd class="fore4_16" id="_MYJD_hczdds">
+			<a clstag="pageclick|keycount|home_201804231|3" href="//freeprinter.jd.com/pc.html#/service" target="_blank">耗材自动递送</a>
+		</dd>
+                <dd class="fore4_16" id="_MYJD_jipiao">
+			<a clstag="pageclick|keycount|home_201804231|4" href="//jipiao.jd.com/" target="_blank">京东机票</a>
+		</dd>
+	</dl>
+	<dl class="fore5">
+		<dt id="_MYJD_fw">客户服务</dt>
+		<dd class="fore5_1" id="_MYJD_repair">
+			<a clstag="homepage|keycount|home2013|Homerepair" href="//myjd.jd.com/afs/indexNew.action?entry=8" target="_self">返修退换货</a>
+		</dd>
+		<dd class="fore5_2" id="_MYJD_protection">
+			<a clstag="homepage|keycount|home2013|Homejb" href="//pcsitepp-fm.jd.com" target="_self">价格保护</a>
+		</dd>
+		<dd class="fore5_3" id="_MYJD_complaint">
+			<a clstag="homepage|keycount|home2013|Homeopinion" href="//myjd-crm.jd.com/opinion/orderList.action" target="_self">意见建议</a>
+		</dd>
+		<dd class="fore5_4" id="_MYJD_question">
+			<a clstag="homepage|keycount|home2013|Homewdwd" href="//question.jd.com/myjd/getMyjdQuestionList.action" target="_self">我的问答</a>
+		</dd>
+		<dd class="fore5_5" id="_MYJD_consultation">
+			<a clstag="homepage|keycount|home2013|Homeconsu" href="//club.jd.com/myjd/userConsultationList_1.html" target="_self">购买咨询</a>
+		</dd>
+		<dd class="fore5_6" id="_MYJD_referee">
+			<a clstag="homepage|keycount|home2013|Homemjyjf" href="//myjd-crm.jd.com/referee/orderlist.action" target="_self">交易纠纷</a>
+		</dd>
+		<dd class="fore5_7" id="_MYJD_foreign">
+			<a clstag="homepage|keycount|home2013|Homemjdwx" href="//weixiu.jd.com/mall/repair/foreign" target="_self">京东维修 </a>
+		</dd>
+
+        <dd class="fore5_9" id="_MYJD_wdfp">
+			<a clstag="homepage|keycount|home2013|Homezzfp" href="//myivc.jd.com/fpzz.html" target="_self">我的发票</a>
+		</dd>
+      <dd class="fore5_10" id="_MYJD_jbzx">
+			<a clstag="homepage|keycount|home2013|Homejbzx" href="//jubao.jd.com/myjd/list.html" target="_self">举报中心</a>
+		</dd>
+	</dl>
+	<dl class="fore6">
+		<dt id="_MYJD_sz">设置</dt>
+		<dd class="fore6_1" id="_MYJD_info">
+			<a clstag="homepage|keycount|home2013|Homeyser2" href="//i.jd.com/user/info" target="_self">个人信息</a>
+		</dd>
+		<dd class="fore6_2" id="_MYJD_add">
+			<a clstag="homepage|keycount|home2013|Homeadd2" href="//easybuy.jd.com/address/getEasyBuyList.action" target="_self">收货地址</a>
+		</dd>
+	</dl>
+</div>
+
+				<div id="menu-ads">
+	            	<!--广告全部放这里-->
+	            <div><a href="https://ccc-x.jd.com/dsp/cpd?ext=aHR0cHM6Ly93YW4uamQuY29tL3lleW91L2dvZ2FtZS5odG1s&amp;log=JF5rMUAKXlLMuE_-1qw2RKwu9W82n03RnztIpYfC-NVWZuaHLhAWyfY2fGI8hkyp3JrG-AkgPNZcGnHI4OGuqzL2W8RatupNMHhgiHHPPOMjdSgC6DDqPTLKogeRIenzGaQqtGTKHlbZh4b-EYmHVHCuMaNLXVwFwQQngyJc4TGVAXA1o_TIIndC3qzL-1PvAx4Z_QYVLV66nDhZ69Syfsr2C0vIv0Cc3vIUn8T_mBd-64mMVvfDyxA8upvSwYRPEpB7leqWi-LtEuGR1RSXWVN0mBfOaMPMllFg58q_mPwKxIC44lxVwg49mURGFIa2hydh1aqtuUn5Tdo6oeagEqrsGSQqYLiJRf2Z7AOlh4G1wz_7I0_1p2glroEijzni7sfCqOr7rXuS4URtWdkKFZ70_uDzDTXz6tWaXKMdi1N9PrVS_dyV2dIfkm-1R_59c5PCu0T4LYjVvfT0zEb4VYK4CK-91pZrEeoEhyo2Bk4v7iOH5vILgtE-OfhoXTOhg3rRf17rUzFKXkYNR0VeYghp174IONQyoAY3k2Xr8rPY24a_ZZallRyQp7vuTF8fZ3nF8XQUsLSV5kV8DazKR1qeh6sYnbNQVu9GcOnFNvOAug_oyWfNIy7lL9Xl9f3e4vJ5wOHFLcRLnInm58RwpFgOepP8J3h9heLkiCUXZ6GwVsI08_KFyak7JjLLK9v3" target="_blank"><img width="90" height="70" alt="" app="image:poster" src="//img20.360buyimg.com/da/jfs/t4531/223/4629374646/7516/a018ebec/59126ae3N1b306e2c.jpg"></a></div></div>
+       		 </div>
+			<div id="main" class="main-mybean">
+
+				<div class="main-module module-head">
+					<div class="nav-tab">
+						<ul class="tab-trigger">
+							<li class="trig-item trig-curr"><a href="list" class="text" clstag="pageclick|keycount|myJingBean_201707111|1">我的京豆</a></li>
+							<li class="trig-item"><a href="detail" class="text" clstag="pageclick|keycount|myJingBean_201707111|2">京豆明细</a></li>
+						</ul>
+					</div>
+					<div class="md-extra"><a href="//dou.jd.com/juhuasuan" target="_blank" class="ftc02" clstag="pageclick|keycount|myJingBean_201707111|3">京豆巨划算 ，给你不一样的优惠惊喜 &gt;</a></div>
+</div>
+
+<div class="head-tips">
+					<i class="tip-icon"></i>
+				<div id="sliderBox" style="height:20px;overflow:hidden;">
+
+					<div id="mar" style="width:500px;">
+
+					  						<div class="tip-main">PLUS会员京豆专场 <a href="//vip.jd.com" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|7">去看看&gt;</a></div>
+					  			    	</div>
+			    </div>
+					<span class="tip-close" onclick="closeTips()">×</span>
+</div>
+
+<div class="main-module module-stats">
+					<div class="bean-info">
+						<div class="bi-title">我的京豆</div>
+						<div class="bi-icon"></div>
+													<div class="bi-number">2177</div>
+
+						<div class="bi-btnbox">
+							<a href="#earnBean" class="btn-gutter" clstag="pageclick|keycount|myJingBean_201707111|9">赚京豆</a>
+							<a href="#expendBean" clstag="pageclick|keycount|myJingBean_201707111|10">花京豆</a>
+						</div>
+					</div>
+					<div class="bean-stats">
+						<div class="bs-hd">
+							<h5 class="bs-title">最近三个月京豆统计</h5>
+															<a href="//plus.jd.com" class="bs-tips" clstag="pageclick|keycount|myJingBean_201707111|8">开通PLUS会员, <em class="ftc01">10倍</em> 购物返京豆 &gt;</a>
+
+
+							<a href="//help.jd.com/user/issue/167-330.html" class="m-help-tips" clstag="pageclick|keycount|myJingBean_201707111|11"><i></i><em>什么是京豆</em></a>
+						</div>
+												<div class="bs-bd">
+							<ul class="stats-list">
+								<li>
+									<div class="s-label">购物返豆</div>
+									<div class="s-value">
+										<strong>
+																							+145
+																					</strong>
+									</div>
+								</li>
+								<li>
+									<div class="s-label">评价晒单返豆</div>
+									<div class="s-value">
+										<strong>
+											+0
+										</strong>
+									</div>
+								</li>
+								<li>
+									<div class="s-label">其它返豆</div>
+									<div class="s-value">
+										<strong>
+											+12418
+										</strong>
+									</div>
+								</li>
+								<li>
+									<div class="s-label">京豆支付订单数</div>
+									<div class="s-value"><strong>3</strong>单</div>
+								</li>
+								<li>
+									<div class="s-label">京豆抵扣节省</div>
+									<div class="s-value"><strong>180.0</strong>元</div>
+								</li>
+							</ul>
+						</div>
+											</div>
+				</div>
+
+								<div class="main-module module-details">
+					<div class="bean-details">
+						<div class="details-hd">
+							<h5 class="details-title">最近京豆明细</h5>
+							<a href="#beanHelp" class="m-help-tips" clstag="pageclick|keycount|myJingBean_201707111|12"><i></i><em>京豆使用常见问题</em></a>
+						</div>
+						<div class="details-bd">
+
+<table class="bean-details-table">
+	<thead>
+
+		<tr>
+			<th class="c1">时间</th>
+			<th class="c2">收入/支出</th>
+			<th class="c3">详细说明</th>
+		</tr>
+
+	</thead>
+	<tbody>
+
+
+	<tr><td class="c1">2020-02-03 16:25:31</td><td class="c2"><span class="ftc01">1</span></td><td class="c3">参加[康佳电视京东自营旗舰店]店铺活动-奖励</td></tr><tr><td class="c1">2020-02-03 15:56:21</td><td class="c2"><span class="ftc01">3</span></td><td class="c3">双签礼包</td></tr><tr><td class="c1">2020-02-03 15:55:20</td><td class="c2"><span class="ftc01">1</span></td><td class="c3">签到发奖</td></tr><tr><td class="c1">2020-02-03 15:27:37</td><td class="c2"><span class="ftc01">6</span></td><td class="c3">购物送京豆(商品号:12570304)</td></tr><tr><td class="c1">2020-02-03 15:27:05</td><td class="c2"><span class="ftc01">220</span></td><td class="c3">会员PLUS购物回馈(订单号110683324229) </td></tr><tr><td class="c1">2020-02-03 09:49:28</td><td class="c2"><span class="ftc01">5</span></td><td class="c3">无线端签到领京豆</td></tr><tr><td class="c1">2020-02-02 10:11:07</td><td class="c2"><span class="ftc01">3</span></td><td class="c3">无线端签到领京豆</td></tr><tr><td class="c1">2020-02-01 14:03:25</td><td class="c2"><span class="ftc01">2</span></td><td class="c3">无线端签到领京豆</td></tr></tbody>
+</table>
+
+							<a href="detail" class="view-all ftc02" clstag="pageclick|keycount|myJingBean_201707111|13">查看全部明细&gt;</a>
+						</div>
+					</div>
+				</div>
+				<div class="main-module2 module-earn-bean" id="earnBean">
+					<h3 class="md-hd">
+						<i class="line1"></i><em>赚京豆</em><i class="line2"></i>
+					</h3>
+					<div class="md-bd">
+						<ul class="bean-earn">
+							<li class="li-item1">
+								<div class="c-inner">
+									<div class="c-title">购物</div>
+									<div class="c-splitter"></div>
+									<div class="c-hint">成功下单并收货可获得京豆奖励</div>
+									<a href="//cart.jd.com/cart.action" class="c-btn" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|14">去购物 &gt;</a>
+									<i class="c-bg"></i>
+								</div>
+							</li>
+							<li class="li-item2">
+								<div class="c-inner">
+									<div class="c-title">每日签到</div>
+									<div class="c-splitter"></div>
+									<div class="c-hint">连续签到可获得更多京豆</div>
+									<a href="//vip.jd.com" class="c-btn" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|15">去签到 &gt;</a>
+									<i class="c-bg"></i>
+								</div>
+							</li>
+							<li class="li-item3">
+								<div class="c-inner">
+
+									<div class="c-title">评价</div>
+									<div class="c-splitter"></div>
+									<div class="c-hint">最多获得0京豆（0个商品待评价）</div>
+									<a href="//club.jd.com/myJdcomments/myJdcomment.action" class="c-btn" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|16">去评价 &gt;</a>
+									<i class="c-bg"></i>
+								</div>
+							</li>
+							<li class="li-item4">
+								<div class="c-inner">
+
+									<div class="c-title">晒单</div>
+									<div class="c-splitter"></div>
+									<div class="c-hint">最多获得0京豆（0个商品待晒单）</div>
+									<a href="//club.jd.com/myJdcomments/myJdcomment.action?sort=1" class="c-btn" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|17">去晒单 &gt;</a>
+									<i class="c-bg"></i>
+								</div>
+							</li>
+						</ul>
+						<div class="bean-shop">
+							<div class="shop-hd">
+								<h5 class="c-title">进店签到领京豆</h5>
+														</div>
+							<div class="shop-bd">
+								<ul class="bean-shop-list">
+
+
+								<li><div class="s-img" style="vertical-align: middle;"><a href="http://mall.jd.com/index-1000002815.html" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t2074/199/1965330344/7335/cf871ccf/568dd50cN3f812214.jpg" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://mall.jd.com/index-1000002815.html" target="_blank">康佳电视京东自营旗舰店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">10京豆</span></div><span class="s-received"></span></li><li><div class="s-img" style="vertical-align: middle;"><a href="http://mall.jd.com/index-763078.html" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t19132/130/1551960434/8036/fa66635b/5acddd52N2651f533.jpg" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://mall.jd.com/index-763078.html" target="_blank">兰亭紫苑官方旗舰店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">1京豆</span></div><a href="http://mall.jd.com/index-763078.html" target="_blank" class="s-btn" clstag="pageclick|keycount|myJingBean_201707111|18">去签到</a></li><li><div class="s-img" style="vertical-align: middle;"><a href="http://huliuxiang.jd.com" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t736/272/1461043939/5646/71e19898/553dd6d7N9f58e420.jpg" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://huliuxiang.jd.com" target="_blank">壶留香紫砂专营店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">1京豆</span></div><a href="http://huliuxiang.jd.com" target="_blank" class="s-btn" clstag="pageclick|keycount|myJingBean_201707111|18">去签到</a></li><li style="display: none;"><div class="s-img" style="vertical-align: middle;"><a href="http://msncj.jd.com" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t2776/12/2578039988/16296/a8e1e2a0/576a61b2N64f19993.png" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://msncj.jd.com" target="_blank">紫艺陶缘专营店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">1京豆</span></div><a href="http://msncj.jd.com" target="_blank" class="s-btn" clstag="pageclick|keycount|myJingBean_201707111|18">去签到</a></li><li style="display: none;"><div class="s-img" style="vertical-align: middle;"><a href="http://misney.jd.com" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t1/14013/34/2700/14172/5c203d10E6212a819/3c616697fa74b1de.jpg" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://misney.jd.com" target="_blank">美斯尼官方旗舰店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">1京豆</span></div><a href="http://misney.jd.com" target="_blank" class="s-btn" clstag="pageclick|keycount|myJingBean_201707111|18">去签到</a></li><li style="display: none;"><div class="s-img" style="vertical-align: middle;"><a href="http://zunhu.jd.com" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t2413/312/36770146/26109/de8db31d/55e9008bN675a82ec.jpg" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://zunhu.jd.com" target="_blank">尊壶官方旗舰店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">1京豆</span></div><a href="http://zunhu.jd.com" target="_blank" class="s-btn" clstag="pageclick|keycount|myJingBean_201707111|18">去签到</a></li><li style="display: none;"><div class="s-img" style="vertical-align: middle;"><a href="http://kailas.jd.com" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t2203/50/1376710441/2505/715bee4d/56960dcbN0ab1dc6e.png" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://kailas.jd.com" target="_blank">KAILAS凯乐石官方旗舰店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">20京豆</span></div><a href="http://kailas.jd.com" target="_blank" class="s-btn" clstag="pageclick|keycount|myJingBean_201707111|18">去签到</a></li><li style="display: none;"><div class="s-img" style="vertical-align: middle;"><a href="http://mall.jd.com/index-1000002519.html" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t766/291/1277032780/7408/a9c501e6/552cde5fNf574baa4.jpg" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://mall.jd.com/index-1000002519.html" target="_blank">爱国者存储京东自营旗舰店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">5京豆</span></div><a href="http://mall.jd.com/index-1000002519.html" target="_blank" class="s-btn" clstag="pageclick|keycount|myJingBean_201707111|18">去签到</a></li><li style="display: none;"><div class="s-img" style="vertical-align: middle;"><a href="http://mall.jd.com/index-1000300406.html" target="_blank" style="line-height: 60px;"><img src="//img1.360buyimg.com/popshop/jfs/t1/91327/37/4554/30007/5de74debEe2fbeed5/4223d8b4720648df.jpg" alt="" style="width:60px; height:20px;"></a></div><div class="s-name"><a href="http://mall.jd.com/index-1000300406.html" target="_blank">皇家稻场京东自营旗舰店</a></div><div class="s-bean">店内签到最多可领 <span class="ftc03">18京豆</span></div><a href="http://mall.jd.com/index-1000300406.html" target="_blank" class="s-btn" clstag="pageclick|keycount|myJingBean_201707111|18">去签到</a></li></ul>
+								<div class="m-pager">
+									<span class="p-item p-curr" onclick="selec(1)">1</span>
+									<span class="p-item" onclick="selec(2)">2</span>
+									<span class="p-item" onclick="selec(3)">3</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+							<div class="main-module2 module-expend-bean" id="expendBean">
+					<h3 class="md-hd">
+						<i class="line1"></i><em>花京豆</em><i class="line2"></i>
+					</h3>
+					<div class="md-bd">
+						<ul class="bean-expend">
+							<li class="fore1">
+								<h5 class="c-title">京东京豆</h5>
+								<div class="c-hint">更多好物好券，京豆兑换更划算</div>
+								<a href="//dou.jd.com" class="c-btn" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|19">去逛逛 &gt;</a>
+							</li>
+							<li class="fore2">
+								<h5 class="c-title">京豆换流量</h5>
+								<div class="c-hint">手机流量，随心兑换</div>
+								<a href="javascript:;" class="c-btn J-exchange" clstag="pageclick|keycount|myJingBean_201707111|20">去兑换 &gt;</a>
+							</li>
+						</ul>
+
+						<!--京豆兑换优惠券  start test-->
+												<!--京豆兑换优惠券 end-->
+
+
+						<div class="sub-module">
+							<div class="smd-hd">
+								<h5 class="smd-title"><em>京豆优惠购</em></h5>
+								<a href="//dou.jd.com/juhuasuan" class="view-more" target="_blank">更多 &gt;</a>
+							</div>
+							<div class="smd-bd">
+								<div class="slider-module goods-slider1">
+									<span class="slider-prev slider-disable"></span>
+									<span class="slider-next"></span>
+									<div class="slider-main" style="position: relative;">
+											                                        	<ul class="goods-list1" style="width: 1908px; left: 0px; position: absolute;">
+    																							<li class="current" data-slider-idx="0" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/45259002449.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t3259/148/4218825435/252526/5b3e9915/58369157N3d00a711.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/45259002449.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/45259002449.html" title="" target="_blank">天泽（TIAN ZE）景德镇功夫茶具套装整套陶瓷茶壶盖碗茶杯礼盒包装新款 云端定窑手绘茶具 云端 云端定窑手绘茶具</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>246.1</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    																							<li class="" data-slider-idx="1" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/54474856901.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t1/41675/37/11824/80148/5d539ca2E1b17e7a7/d688bedf5a620045.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/54474856901.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/54474856901.html" title="" target="_blank">天泽 景德镇茶杯泡茶杯陶瓷茶水分离功夫茶杯过滤茶隔杯茶杯玲珑杯带盖过滤主人杯子白瓷办公杯 双喜款（280ml）</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>88.1</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    																							<li class="" data-slider-idx="2" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/30276161584.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t21100/287/2285862755/404470/91fbdb87/5b5013b8Ne43c4c53.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/30276161584.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/30276161584.html" title="" target="_blank">天泽白瓷茶壶套装陶瓷茶具功夫茶整套玉瓷茶壶茶海茶杯套装家用办公室送礼定制茶具泡茶器茶道 纯白*玉瓷盖碗茶具套装</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>198.1</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    																							<li class="" data-slider-idx="3" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/32121721304.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t29971/297/457240954/133135/5fa9a665/5bf4fef3N9f6f51eb.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/32121721304.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/32121721304.html" title="" target="_blank">天泽 泡茶壶旅行茶具套装快客杯一壶两杯便携茶具旅游套装玻璃喝茶套装功夫泡茶杯户外便携包式茶具盖碗茶杯 纯白色</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>86.1</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    																							<li class="" data-slider-idx="4" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/11905767069.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t1/69334/10/2680/432134/5d0e01c6Ec399c6d5/40e5c31edcf358dd.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/11905767069.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/11905767069.html" title="" target="_blank">天泽（TIAN ZE） 全自动茶具套装整套时来运转景德镇彩青花瓷镂空防烫石磨玲珑陶瓷茶杯套装 自动茶具套装蜂窝  得意</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>83.1</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    																							<li class="" data-slider-idx="5" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/27141005667.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t19636/273/1533317661/131803/1aaf55f4/5aceeda0N9c341b64.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/27141005667.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/27141005667.html" title="" target="_blank">天泽 茶杯功夫茶盏玉瓷品茗杯套装主人杯茶具陶瓷白瓷一口杯单杯功夫茶杯个人杯玉瓷水杯 描金-旦形杯</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>20.0</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    																							<li class="" data-slider-idx="6" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/54727766242.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t1/67483/28/7148/172946/5d54c099E7833c34e/128cd9d75b235cde.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/54727766242.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/54727766242.html" title="" target="_blank">天泽 无孔过滤茶漏矿石茶具茶具配件分茶器茶滤茶海过滤网功夫泡茶茶叶具过滤器大号不锈钢加厚耐高温加热 大号斗笠粗底</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>103.1</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    																							<li class="" data-slider-idx="7" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/55090443163.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t1/74317/35/7691/162169/5d5b874aE5e37e535/739b08678e77c0fe.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/55090443163.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/55090443163.html" title="" target="_blank">天泽（TIAN ZE）泡茶壶玻璃冷水壶组合玻璃杯套装家用大容量凉水壶花茶壶果汁扎壶加厚茶壶 1800ml冷水壶 4个杯子</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>133.1</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    																							<li class="" data-slider-idx="8" style="float: left;">
+                                        			<div class="p-img">
+                                        				<a href="//item.jd.com/52130510981.html" title="" target="_blank">
+                                        					<img src="//img12.360buyimg.com/n1/jfs/t1/37671/22/14568/131765/5d25a577E80399261/5f73c115822135b3.jpg" alt="">
+                                        					<span class="p-img-mask"></span>
+
+                                        				</a>
+                                        				<a class="p-addcart" href="//item.jd.com/52130510981.html" target="_blank" clstag="pageclick|keycount|myJingBean_201707111|22">立即购买</a>
+                                        			</div>
+                                        			<div class="p-name">
+                                        				<a href="//item.jd.com/52130510981.html" title="" target="_blank">德化窑变三才盖碗家用盖碗茶杯泡茶碗陶瓷功夫茶具碗 宝石蓝</a>
+                                        			</div>
+                                        			<div class="p-price">
+                                        				<span class="u-price"><em>¥</em><strong>83.1</strong></span>
+                                        				<span class="p-bean">+<strong>10</strong>京豆</span>
+                                        			</div>
+                                        		</li>
+    											                                        	</ul>
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="main-module module-help" id="beanHelp">
+					<div class="help-title">京豆使用常见问题</div>
+					<dl class="bean-help-list">
+						<dt>1.京豆的有效期</dt>
+						<dd>京豆的有效期最长2年，最短1年，即从获得京豆开始至次年年底，逾期自动作废（如若交易在使用京豆有效期之外发生退款，该部分京豆不予退还）</dd>
+						<dt>2. 京豆的兑换比例</dt>
+						<dd>京豆和人民币兑换比例是100:1，即100个京豆相当于人民币1元。</dd>
+						<dt>3. 京豆如何获取</dt>
+						<dd>用户在京东进行购物、商品评价、晒单、交易满意度、移动端下单、指定区域在线支付等活动都可以获得京豆。具体获取京豆规则详见京豆帮助中心。</dd>
+					</dl>
+					<div class="view-more"><a href="//help.jd.com/user/issue/list-150-167.html" class="ftc02">了解更多问题 &gt;</a></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /main -->
+
+	<!--service start-->
+<div id="service-2017">
+	<div class="w">
+		<ol class="slogen">
+			<li class="item fore1">
+				<i>多</i>品类齐全，轻松购物
+			</li>
+			<li class="item fore2">
+				<i>快</i>多仓直发，极速配送
+			</li>
+			<li class="item fore3">
+				<i>好</i>正品行货，精致服务
+			</li>
+			<li class="item fore4">
+				<i>省</i>天天低价，畅选无忧
+			</li>
+		</ol>
+	</div>
+	<div class="jd-help">
+		<div class="w">
+			<div class="wrap">
+				<dl class="fore1">
+					<dt>购物指南</dt>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-29.html">购物流程</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-151.html">会员介绍</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-297.html">生活旅行/团购</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue.html">常见问题</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-136.html">大家电</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/custom.html">联系客服</a>
+					</dd>
+				</dl>
+				<dl class="fore2">
+					<dt>配送方式</dt>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-81-100.html">上门自提</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-81.html">211限时达</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/103-983.html">配送服务查询</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/109-188.html">配送费收取标准</a>
+					</dd>
+					<dd>
+						<a target="_blank" href="//help.joybuy.com/help/question-list-201.html">海外配送</a>
+					</dd>
+				</dl>
+				<dl class="fore3">
+					<dt>支付方式</dt>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-172.html">货到付款</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-173.html">在线支付</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-176.html">分期付款</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-175.html">公司转账</a>
+					</dd>
+				</dl>
+				<dl class="fore4">
+					<dt>售后服务</dt>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/321-981.html">售后政策</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-132.html">价格保护</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/130-978.html">退款说明</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//myjd.jd.com/repair/repairs.action">返修/退换货</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-50.html">取消订单</a>
+					</dd>
+				</dl>
+				<dl class="fore5">
+					<dt>特色服务</dt>
+					<dd>
+						<a target="_blank" href="//1paipai.jd.com">夺宝岛</a>
+					</dd>
+					<dd>
+						<a target="_blank" href="//help.jd.com/user/issue/list-134.html">DIY装机</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//fuwu.jd.com/">延保服务</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//o.jd.com/market/index.action">京东E卡</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//mobile.jd.com/">京东通信</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//smart.jd.com/">京鱼座智能</a>
+					</dd>
+				</dl>
+				<span class="clr"></span>
+			</div>
+		</div>
+	</div>
+</div>
+<!--service end-->
+	<!--footer start-->
+<div id="footer-2017" includefile_footer_id="1002">
+	<div class="w">
+		<div class="copyright_links">
+			<p>
+				<a href="//about.jd.com" target="_blank">关于我们</a><span class="copyright_split">|</span>
+				<a href="//about.jd.com/contact/" target="_blank">联系我们</a><span class="copyright_split">|</span>
+				<a href="//help.jd.com/user/custom.html" target="_blank">联系客服</a><span class="copyright_split">|</span>
+				<a href="//lai.jd.com" target="_blank">合作招商</a><span class="copyright_split">|</span>
+				<a href="//helpcenter.jd.com/venderportal/index.html" target="_blank">商家帮助</a><span class="copyright_split">|</span>
+				<a href="//jzt.jd.com" target="_blank">营销中心</a><span class="copyright_split">|</span>
+				<a href="//app.jd.com/" target="_blank">手机京东</a><span class="copyright_split">|</span>
+				<a href="//club.jd.com/links.aspx" target="_blank">友情链接</a><span class="copyright_split">|</span>
+				<a href="//media.jd.com/" target="_blank">销售联盟</a><span class="copyright_split">|</span>
+				<a href="//pro.jd.com/mall/active/3WA2zN8wkwc9fL9TxAJXHh5Nj79u/index.html" target="_blank">京东社区</a><span class="copyright_split">|</span>
+				<a href="//pro.jd.com/mall/active/3TF25tMdrnURET8Ez1cW9hzfg3Jt/index.html" target="_blank">风险监测</a><span class="copyright_split">|</span>
+				<a href="//about.jd.com/privacy/" target="_blank">隐私政策</a><span class="copyright_split">|</span>
+				<a href="//gongyi.jd.com" target="_blank">京东公益</a><span class="copyright_split">|</span>
+				<a href="//www.joybuy.com/" target="_blank">English Site</a><span class="copyright_split">|</span>
+				<a href="//corporate.jd.com/" target="_blank">Media &amp; IR</a>
+			</p>
+		</div>
+		<div class="copyright_info">
+			<p>
+				<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000088" target="_blank">京公网安备 11000002000088号</a><span class="copyright_split">|</span><span>京ICP证070359号</span><span class="copyright_split">|</span>
+				<a href="//img30.360buyimg.com/poprx/jfs/t1/45702/1/7206/3652062/5d4d3f4fE7ea82da4/207332da28ae8230.png" target="_blank">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a><span class="copyright_split">|</span><span>新出发京零 字第大120007号</span></p>
+			<p><span>互联网出版许可证编号新出网证(京)字150号</span><span class="copyright_split">|</span>
+				<a href="//pro.jd.com/mall/active/3bVDLXHdwVmdQksGF8TtS7ocq1NY/index.html" target="_blank">出版物经营许可证</a><span class="copyright_split">|</span>
+				<a href="//misc.360buyimg.com/wz/wlwhjyxkz.jpg" target="_blank">网络文化经营许可证京网文[2014]2148-348号</a><span class="copyright_split">|</span><span>违法和不良信息举报电话：4006561155</span></p>
+			<p><span class="copyright_text">Copyright © 2004 - <em id="copyright_year">2020</em>  京东JD.com 版权所有</span><span class="copyright_split">|</span><span>消费者维权热线：4006067733</span>
+				<a href="//pro.jd.com/mall/active/38PitHBfR7ZopNHRSHnuuWR5AMDL/index.html" target="_blank" class="copyright_license">经营证照</a>
+				<span class="copyright_split">|</span>
+				<span>(京)网械平台备字(2018)第00003号</span>
+				<span class="copyright_split">|</span>
+				<a href="//storage.jd.com/imgtools/cbdaa22553-dccaf290-d1af-11e8-a840-89f99f5f0056.jpeg" target="_blank" class="mod_business_license">营业执照</a>
+			</p>
+			<p class="mod_copyright_inter">
+				<a class="mod_copyright_inter_lk" href="//www.joybuy.com/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0501"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_global"></i><span class="languagefont"></span></a>
+				<span class="copyright_split">|</span>
+				<a class="mod_copyright_inter_lk" href="//www.jd.ru/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0502"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_rissia"></i><span class="languagefont"></span></a>
+				<span class="copyright_split">|</span>
+				<a class="mod_copyright_inter_lk" href="//www.jd.id/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0503"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_indonesia"></i><span class="languagefont"></span></a>
+				<span class="copyright_split">|</span>
+				<a class="mod_copyright_inter_lk" href="//www.joybuy.es/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0504"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_spain"></i><span class="languagefont"></span></a>
+				<span class="copyright_split">|</span>
+				<a class="mod_copyright_inter_lk" href="//www.jd.co.th/?source=1&amp;visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0505"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_thailand"></i><span class="languagefont"></span></a>
+			</p>
+			<p><span>京东旗下网站：</span>
+				<a href="https://www.jdpay.com/" target="_blank">京东钱包</a><span class="copyright_split">|</span>
+				<a href="https://www.jdcloud.com" target="_blank">京东云</a>
+			</p>
+		</div>
+		<p class="copyright_auth">
+			<script type="text/JavaScript">function CNNIC_change(eleId){var str= document.getElementById(eleId).href;var str1 =str.substring(0,(str.length-6));str1+=CNNIC_RndNum(6);
+				document.getElementById(eleId).href=str1;}function CNNIC_RndNum(k){var rnd=""; for (var i=0;i
+				< k;i++) rnd+=Math.floor(Math.random()*10); return rnd;};(function(){var d=new Date;document.getElementById(
+				 "copyright_year").innerHTML=d.getFullYear()})();</script>
+					<a id="urlknet" class="copyright_auth_ico copyright_auth_ico_2" onclick="CNNIC_change('urlknet')" oncontextmenu="return false;" name="CNNIC_seal" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005" target="_blank">可信网站信用评估</a>
+					<a class="copyright_auth_ico copyright_auth_ico_3" href="http://www.cyberpolice.cn/" target="_blank">网络警察提醒你</a>
+					<a class="copyright_auth_ico copyright_auth_ico_4" href="https://search.szfw.org/cert/l/CX20120111001803001836" target="_blank">诚信网站</a>
+					<a class="copyright_auth_ico copyright_auth_ico_5" href="http://www.12377.cn" target="_blank">中国互联网举报中心</a>
+					<a class="copyright_auth_ico copyright_auth_ico_6" href="http://www.12377.cn/node_548446.htm" target="_blank">网络举报APP下载</a>
+		</p>
+	</div>
+</div>
+<!--footer end-->
+
+
+
+<script type="text/javascript">
+    seajs.use('//misc.360buyimg.com/user/myjd/jdbean/0.0.1/js/mybean.js');
+</script>
+
+<script type="text/javascript">
+    (function () {
+        var ja = document.createElement('script');
+        ja.type = 'text/javascript';
+        ja.async = true;
+        ja.src = ('https:' == document.location.protocol ? 'https://wlssl' : 'http://wl') + '.jd.com/wl.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ja, s);
+    })();
+</script>
+
+<script type="text/javascript">
+	function closeTips(){
+		$(".head-tips").hide();
+	}
+
+    function selec(index){
+		var lis = $(".bean-shop-list li");
+		for(var n=0;n<lis.size();n++){
+			if(n>=(index-1)*3&&n<index*3){
+				lis[n].style.display="";
+			}else{
+				lis[n].style.display="none";
+			}
+		}
+
+		var items = $(".p-item");
+		for(var n=0;n<items.size();n++){
+		     if(index==items[n].innerText){
+		    	 $(items[n]).addClass("p-curr");
+		     }else{
+		    	 $(items[n]).removeClass("p-curr");
+		     }
+		  };
+    }
+</script>
+
+<script type="text/javascript">
+    $(function(){
+        seajs.use('jdf/2.0.0/ui/slider/1.0.0/slider', function(slider){
+	        if($('.tip-main').length>1){
+	        var sliderBox = $('#sliderBox').slider({
+	                contentEl:'#mar .tip-main',
+	                curCls:'current',
+	                isAutoPlay:true,
+	                isAlignX:false,
+	                isLoop:true,
+					interval:3000
+	            });
+	        }
+
+        });
+    });
+</script>
+
+<script src="//gias.jd.com/js/td.js"></script><script src="https://gia.jd.com/y.html?v=0.4276743839058159&amp;o=bean.jd.com/myJingBean/list"></script><div id="userdata_el" style="visibility: hidden; position: absolute;"></div></body></html>
