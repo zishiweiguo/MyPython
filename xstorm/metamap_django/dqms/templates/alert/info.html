@@ -1,0 +1,77 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>报警信息</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/page/check_manager/index.css' %}"/>
+    {% include 'component/js.html' %}
+    <script>
+        function search() {
+            var name = $('#checkname').val();
+            window.parent.select_page('/dqms/alarm_info', 'name=' + name);
+        }
+    </script>
+</head>
+<body>
+<div class="panel-dash">
+    <!-- breadcrumb start -->
+    <div class="m-search-wrap label-w-100">
+        <div></div>
+        <div class="m-search-group">
+            <label class="m-search-label">质检监控信息</label>
+            <div class=" m-search-detail">
+                <input type="text" name="name" placeholder="质检名称" id="checkname" value="{{ request.session.name }}">
+            </div>
+            <button type="button" class="btn btn-sm btn-success m-search-btn" onclick="search()">查询</button>
+        </div>
+        <div id="j-search-list">
+            <p id="totalCheckinst"></p>
+            <table class="table table-bordered " style="margin-top: 8px">
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>用例名称</th>
+                    <th>负责人电话</th>
+                    <th>push消息</th>
+                    <th>push结果</th>
+                </tr>
+                </thead>
+                <tbody id="checkinst_list_table">
+                {% for obj in objs %}
+                    <tr>
+                        <td>{{ obj.id }}</td>
+                        <td>{{ obj.rule.case.case_name }}</td>
+                        <td>{{ obj.target_phone }}</td>
+                        <td>{{ obj.push_msg }}</td>
+                        <td>{{ obj.push_resp }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% include 'components/page.html' %}
+        </div>
+    </div>
+
+    <!-- 失败弹窗 -->
+    <div id="failedModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">失败</h4>
+                </div>
+                <div class="modal-body">
+                    <p id="checkinst">调用服务失败，请联系管理员。</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- breadcrumb
+</body>
+</html>

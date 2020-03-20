@@ -1,0 +1,319 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>测试用例管理</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/page/check_manager/index.css' %}"/>
+    {% include 'component/js.html' %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.dataTables.css' %}"/>
+
+    <script>
+        var TOTAL_RECORD_NUM = "";
+        var caseId;
+        var caseName;
+        var creator;
+
+
+        $(document).ready(function () {
+            var params = parseUrlParams(location.search);
+            caseName = params["caseName"];
+            creator = params["creator"];
+            if (isRightName(caseName)) {
+                $('#caseName').attr('value', caseName);
+            }
+            if (isRightName(creator)) {
+                $('#creator').attr('value', creator);
+            }
+        });
+
+        /**
+         * 获取所有质检任务
+         */
+        function getCases() {
+            var subUrl = "";
+            caseName = $('#caseName').val();
+            creator = $('#creator').val();
+            subUrl += "&case_name=" + caseName;
+            subUrl += "&creator=" + creator;
+            window.parent.select_page('case', subUrl);
+        }
+
+        /**
+         * 新建一个质检任务
+         */
+        function createCase() {
+            var params = "case_name=" + caseName + "&creator=" + creator;
+            window.parent.select_page('case/edit', params);
+
+        }
+
+        /**
+         * 编辑质检任务
+         */
+        function editCase(case_id) {
+            if (isRightName(caseName)) {
+                var params = 'case_id=' + case_id + "&case_name=" + caseName;
+                window.parent.select_page('case/edit', params);
+            } else {
+                var params = 'case_id=' + case_id;
+                window.parent.select_page('case/edit', params);
+            }
+
+        }
+
+
+        /**
+         * 单次测试执行case
+         */
+
+        function onceRunCase(case_id) {
+            caseId = case_id;
+            $("#onceRunModal").modal('show');
+        }
+
+        function run_case() {
+            $("#onceRunModal").modal('hide');
+            $.ajax({
+                url: "/dqms/case/runtest/" + caseId,
+                type: "GET",
+                success: function (resp) {
+                    console.log(resp);
+                },
+            });
+        }
+
+        /**
+         * 删除质检用例
+         */
+        function deleteCase(case_id) {
+            caseId = case_id;
+            $("#deleteModal").modal('show');
+        }
+        function delete_case() {
+            $("#deleteModal").modal('hide');
+            $.ajax({
+                url: "/dqms/case/del/",
+                data: "id=" + caseId,
+                type: "post",
+                success: function (resp) {
+                    if (resp.code == 1) { //调用服务失败
+                        $("#failedModal").modal('show');
+                        $("#casemanager").html(resp.msg);
+                        return;
+                    }
+                    window.parent.select_page('case/');
+                },
+            });
+
+        }
+
+
+        //获取指定质检任务的执行记录
+        function getexecutions(id) {
+            $('#example').DataTable({
+                "ajax": "/dqms/case/execs?id=" + id,
+                "columns": [
+                    {"data": "case_id"},
+                    {"data": "status"},
+                    {"data": "start_time"},
+                    {"data": "end_time"}
+                ],
+                "destroy": true,
+                "pageLength": 5,
+                "pagingType": "full",
+                language: {
+                    aria: {
+                        sortAscending: ": 以升序排列此列 ",
+                        sortDescending: ": 以降序排列此列"
+                    },
+                    emptyTable: "表中没有数据",
+                    info: "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+                    infoEmpty: "未找到数据",
+                    infoFiltered: "(由 _MAX_ 项结果过滤)",
+                    lengthMenu: "显示 _MENU_",
+                    search: "搜索:",
+                    zeroRecords: "没有匹配的结果",
+                    paginate: {previous: "上页", next: "下页", last: "末页", first: "首页"}
+                }
+            });
+            $("#executionModal").modal('show');
+        }
+    </script>
+
+
+</head>
+<body>
+<div class="panel-dash">
+    <!-- breadcrumb start -->
+    <div id="breadcrumb">
+        <ul class="breadcrumb">
+            <li>用例管理</li>
+        </ul>
+    </div>
+    <!-- breadcrumb end -->
+    <div class="m-search-wrap label-w-100">
+        <div></div>
+        <div class="m-search-group">
+            <label class="m-search-label">用例名称</label>
+            <div class=" m-search-detail">
+                <input type="text" name="name" placeholder="用例名称" id="caseName" value="{{ request.session.case_name }}">
+            </div>
+            <br>
+            <label class="m-search-label">创建人</label>
+            <div class=" m-search-detail">
+                <input type="text" name="name" placeholder="创建人" id="creator">
+            </div>
+            <button type="button" class="btn btn-sm btn-success m-search-btn" id="j-submit"
+                    onclick="getCases()">查询
+            </button>
+            <button type="button" class="btn btn-sm btn-success m-search-btn" id="j-creator" onclick="createCase()">
+                新建用例
+            </button>
+        </div>
+        <div id="j-search-list">
+            <p id="totalCase">总共：{{ objs.count }}条数据</p>
+            <table class="table table-bordered " style="margin-top: 8px">
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>用例名称</th>
+                    <th>创建时间</th>
+                    <th>负责人</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody id="all_case_list_table">
+                {% for obj in objs %}
+                    <tr>
+                        <td class='id'> {{ obj.id }}</td>
+                        <td class='name'>{{ obj.case_name }}</td>
+                        <td> {{ obj.ctime | date:"Y-m-d H:i:s" }}</td>
+                        <td> {{ obj.editor.user.username | default_if_none:"-" }}</td>
+                        <td> {{ obj.status  | default_if_none:"-" }}</td>
+                        <td>
+                            <button class='btn btn-default btn-xs' onclick="editCase({{ obj.id }})">查看详情</button>
+                            <button class='btn btn-default btn-xs' onclick="deleteCase({{ obj.id }})">删除</button>
+                            <button class='btn btn-default btn-xs' onclick="onceRunCase({{ obj.id }})">测试执行</button>
+                            <button class='btn btn-default btn-xs' onclick="getexecutions({{ obj.id }})">执行记录</button>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% include 'components/page.html' %}
+        </div>
+    </div>
+</div>
+
+<!-- Modal HTML -->
+<!-- 获取质检实例任务 -->
+<div id="getCaseInstModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 id="caseTitle" class="modal-title">用例实例</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table table-bordered " style="margin-top: 8px">
+                    <thead>
+                    <tr>
+                        <th>任务实例编号</th>
+                        <th>用例名称</th>
+                        <th>开始时间</th>
+                        <th>结束时间</th>
+                        <th>质检结果</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="case_inst_list_table"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 单次测试执行用例任务 -->
+<div id="onceRunModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Confirmation</h4>
+            </div>
+            <div class="modal-body">
+                <p>确定要测试执行用例?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" onclick="run_case()">确认</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 删除质检任务 -->
+<div id="deleteModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Confirmation</h4>
+            </div>
+            <div class="modal-body">
+                <p>确定要删除质检用例吗?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" onclick="delete_case()">确认</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 失败弹窗 -->
+<div id="failedModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">失败</h4>
+            </div>
+            <div class="modal-body">
+                <p id="casemanager">调用服务失败，请联系管理员。</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">确认</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 获取执行记录 -->
+<div id="executionModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 id="srcTitle" class="modal-title">执行记录</h4>
+            </div>
+            <div class="modal-body" style="  margin-bottom: 25px;">
+                <table id="example" class="display" cellspacing="0" width="100%">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>状态</th>
+                        <th>启动时间</th>
+                        <th>结束时间</th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
